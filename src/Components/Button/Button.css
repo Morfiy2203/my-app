@@ -14,12 +14,12 @@
     height: 60px;
     background: green;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px, solid black;
     font-size: 24px;
     font-weight: 400;
-    top: 85%;
-    left: 99%;
+    top: 87%;
+    left: 138vh;
     z-index: 2;
 }
 
@@ -27,13 +27,20 @@
     position: relative;
     margin: 20px;
     height: 60px;
+    width: 150px;
     background:rgb(255, 0, 0);
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px, solid black;
     font-size: 24px;
     font-weight: 400;
-    top: 85%;
-    left: 100%;
+    top: 87%;
+    left: 137vh;
     z-index: 2;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    height: 30vh;
 }

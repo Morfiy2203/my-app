@@ -6,15 +6,17 @@
 }
 
 .panel{
-    background-color: rgb(137, 244, 239);
+    background-color: rgb(238, 237, 237);
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     text-align: center;
+    border: 2px solid rgb(119, 118, 118);
 }
 
 .Header{
-    font-size: 24px;
+    margin: 20px;
+    font-size: 32px;
     font-weight: 600;
     color: black;
 }
@@ -24,7 +26,32 @@
     position: relative;
     width: 95%;
     height: 60px;
-    border: 2px solid #000;
+    border: 2px solid rgb(119, 118, 118);
     font-size: 16px;
     font-weight: 600;
+    border-radius: 10px
+    
+}
+
+.info{
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+    position:relative;
+    width: 92%;
+    height: 35vh;
+    font-size: 18px;
+    font-weight: 600;
+    overflow-y: auto;
+    border: 2px solid rgb(119, 118, 118);
+    text-align: left;
+    border-radius: 10px
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10px;
+    
 }

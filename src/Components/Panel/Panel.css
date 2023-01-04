@@ -1,0 +1,30 @@
+.panel-warp{
+    position: relative;
+    width: 30%;
+    height: 100vh;
+    
+}
+
+.panel{
+    background-color: rgb(137, 244, 239);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.Header{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.select{
+    align-items: center;
+    position: relative;
+    width: 95%;
+    height: 60px;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+}

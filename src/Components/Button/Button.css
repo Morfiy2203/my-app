@@ -1,0 +1,39 @@
+.Button:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.Button:active {
+    transform: scale(0.95);
+}
+
+
+.Button--add{
+    position: relative;
+    margin: 20px;
+    height: 60px;
+    background: green;
+    color: white;
+    border-radius: 20px;
+    border: 2px, solid black;
+    font-size: 24px;
+    font-weight: 400;
+    top: 85%;
+    left: 99%;
+    z-index: 2;
+}
+
+.Button--clear{
+    position: relative;
+    margin: 20px;
+    height: 60px;
+    background:rgb(255, 0, 0);
+    color: white;
+    border-radius: 20px;
+    border: 2px, solid black;
+    font-size: 24px;
+    font-weight: 400;
+    top: 85%;
+    left: 100%;
+    z-index: 2;
+}
